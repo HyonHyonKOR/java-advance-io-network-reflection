@@ -21,10 +21,10 @@ public class ReaderWriterMainV3 {
         FileReader fr = new FileReader(FILE_NAME, UTF_8);
         int ch;
         while ((ch= fr.read()) != -1){
-            content.append(ch);
+            content.append((char)ch);
         }
         fr.close();
 
-        System.out.println("content = " + content.toString());
+        System.out.println("content = " + content);
     }
 }
