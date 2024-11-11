@@ -29,8 +29,7 @@ public class ReadTextFileV2 {
 
         /*
         List<String> lines = Files.readAllLines(path, UTF_8);
-        for (int i = 0; i < lines.size(); i++) {
-        System.out.println((i + 1) + ": " + lines.get(i));
+        for (int i = 0; i < lines.size(); i++) {        System.out.println((i + 1) + ": " + lines.get(i));
         }
 
          */
